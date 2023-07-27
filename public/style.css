@@ -147,21 +147,27 @@ a:hover{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
 }
-
+hr{
+    color: #000000;
+}
 #list{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 50px;
+    margin-top: 1px;
     display: flex;
     gap: 10px;
     font-size: 30px;
-    margin-left: 10px;
+    padding-left:15px ;
     justify-content: flex-start;
-    /* border-bottom: 2px solid gray; */
+    align-items: center;
+    border-bottom: 1px solid gray;
     font-family: 'Gochi Hand', cursive;
 }
 input[type=checkbox]:checked + label {
-    color:#394867;
+    color:#909bb4;
     text-decoration: line-through;
   }
 .cbox4 {
