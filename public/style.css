@@ -1,29 +1,50 @@
 body{
     background-color: #9BA4B5;
+    display: flex;
+    flex-direction: column;
     font-family: 'Work Sans', sans-serif;
     width: 100%;
+    height: 100%;
+    align-items: center;
 }
 img{
     filter:grayscale() ;
-   
+   height: 50px;
 }
+@media(max-width: 600px) {
+    img{
+        height: 40px;
+    }
+    #navbar li{
+        font-size: 15px;
+    }
+    svg{
+        height: 15px;
+    }
+    
+    
+}
+
 #navbar{
     display: flex;
     justify-content: space-between;
-    margin: 10px 30px;
-    
-}
-#navbar img{
+    align-items: center;
     height: 50px;
+    width: 90%;
+    
 }
 #navbar ul{
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 3px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+
 }
 #navbar li{
+    margin-left: 10px;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -40,7 +61,7 @@ a:hover{
     align-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 3% 3%;
+    margin: 25px;
     padding: 0%;
     width: 100%;
 }
@@ -81,16 +102,13 @@ a:hover{
     margin-top: 15px;
     
 }
-form{
-    width: 100%;
-    height: 45px;
-}
+
 
 #input{
     border: 3px solid black;
   color: black;
     border-radius: 25px;
-  height: 100%;
+  height: 45px;
   width: 80%;
   font-size: 20px;
   text-align: center;
