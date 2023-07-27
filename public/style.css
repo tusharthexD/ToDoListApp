@@ -113,6 +113,7 @@ a:hover{
     border-radius: 25px;
   height: 42px;
   width: 80%;
+  min-width: 216px;
   font-size: 20px;
   text-align: center;
   
