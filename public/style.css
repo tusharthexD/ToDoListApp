@@ -50,6 +50,7 @@ img{
     align-items: center;
     gap: 3px;
 }
+
 a{
     color: black;
 }
@@ -133,20 +134,22 @@ a:hover{
     border-radius: 50%;
     font-size: 30px;
     padding: 0px;
+
 }
-.input button:hover{
-    transform: translate(-2px,-2px);
+.input button:hover{background-color: #394867}
+
+.input button:active{
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-button-active {
-    color: black;
-    background-color: #EB7A53;
-}
 .worklist{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #list{
     margin-top: 10px;
     margin-bottom: 10px;
