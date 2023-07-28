@@ -166,17 +166,15 @@ hr{
 }
 
 #list label{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 input[type=checkbox]:checked + label {
     color:#909bb4;
     text-decoration: line-through;
   }
 .cbox4 {
-    font-size: 5em;
-    color:red;
-    height: 15px;
-    width: 15px;
+    min-height: 15px;
+    min-width: 15px;
     text-decoration: line-through;
     
   }
