@@ -164,6 +164,10 @@ hr{
     border-bottom: 1px solid gray;
     font-family: 'Gochi Hand', cursive;
 }
+
+#list label{
+    margin-right: 20px;
+}
 input[type=checkbox]:checked + label {
     color:#909bb4;
     text-decoration: line-through;
@@ -171,6 +175,8 @@ input[type=checkbox]:checked + label {
 .cbox4 {
     font-size: 5em;
     color:red;
+    height: 15px;
+    width: 15px;
     text-decoration: line-through;
     
   }
